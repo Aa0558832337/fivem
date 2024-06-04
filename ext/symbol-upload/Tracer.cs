@@ -75,6 +75,8 @@ namespace CitizenFX.BuildTools.SymbolUpload
 
 		public bool Enabled;
 
-		public bool EnabledVerbose;
-	}
+        private bool enabledVerbose;
+
+        public global::System.Boolean EnabledVerbose { get => enabledVerbose; set => enabledVerbose = value; }
+    }
 }
